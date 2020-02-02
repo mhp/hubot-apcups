@@ -1,0 +1,14 @@
+#!/bin/sh
+
+EVENT=$(basename $0)
+UPS=$1
+HUBOT=http://hubot.local:8080/hubot/upsevent
+
+curl -s -H "Content-Type: application/json" -d @- $HUBOT >/dev/null <<-EOF
+{
+  "event": "$EVENT",
+  "ups": "$UPS"
+}
+EOF
+
+exit 0

@@ -1,0 +1,20 @@
+{
+  "name": "hubot-apcups",
+  "description": "Monitor UPSs managed by apcupsd",
+  "version": "0.0.0",
+  "author": "Michael P <michael@procter.org.uk>",
+  "license": "MIT",
+  "keywords": "hubot, hubot-scripts, ups, apcupsd",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mhp/hubot-apcups.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mhp/hubot-apcups/issues"
+  },
+  "dependencies": {},
+  "peerDependencies": {
+    "hubot": "2.x"
+  },
+  "main": "index.coffee"
+}
